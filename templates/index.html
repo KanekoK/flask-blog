@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% block content %}
+<header>
+  <h1>Flask Blog</h1>
+  <h2>List Page</h2>
+</header>
+<main>
+  <form action="post">
+    <input type="submit" value="新規登録">
+  </form>
+  <ul>
+    <li>
+      <a href="#">aaaaa</a>
+      <form action="edit">
+        <input type="submit" value="編集">
+      </form>
+      <input type="button" value="削除">
+    </li>
+    <li>
+      <a href="#">bbbbb</a>
+      <form action="edit">
+        <input type="submit" value="編集">
+      </form>
+      <input type="button" value="削除">
+    </li>
+    <li>
+      <a href="#">ccccc</a>
+      <form action="edit">
+        <input type="submit" value="編集">
+      </form>
+      <input type="button" value="削除">
+    </li>
+  </ul>
+</main>
+{% endblock %}

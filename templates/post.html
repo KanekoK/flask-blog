@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block content %}
+<header>
+  <h1>Flask Blog</h1>
+  <h2>Post Page</h2>
+</header>
+<main>
+  <form action="insert">
+    <div class="title">
+      <p>TITLE</p>
+      <input type="text">
+    </div>
+    <div class="content">
+      <p>CONTENT</p>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+    </div>
+    <input type="submit" value="投稿">
+  </form>
+</main>
+{% endblock %}
